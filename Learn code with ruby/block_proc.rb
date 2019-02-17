@@ -14,9 +14,5 @@ end
 print_content("Hello world", "zhang", print_with_postfix_bye) # print out Hello world bye
 print_content("Hello world", "zhang", print_with_postfix_end) # print out Hello world end
 
-name = "mike"
-define_method(:greet) do
-  puts "hello, #{name}"
-end
-greet
+# todo: 函数非闭包,块是闭包,所以块可以访问之外的变量
 
